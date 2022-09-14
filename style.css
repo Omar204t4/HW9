@@ -1,0 +1,102 @@
+.container {
+    align-content: center;
+    width: 600px;
+    margin: 0 auto;
+}
+
+fieldset {
+    background-color: #A4DAE4;
+    border-radius: 7px;
+
+}
+
+form {
+    align-content: center;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #CF7471;
+    width: 51.0%;
+}
+
+input {
+    width: 51.5%;
+    height: 28px;
+    border-style: inset;
+}
+
+textarea {
+    width: 51.5%;
+    resize: none;
+    margin-bottom: 15px;
+}
+
+legend {
+    padding: 5px;
+    border: solid 1px black;
+    border-radius: 8px;
+    background-color: white;
+    margin-left: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+    width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 100% 0% 54% 46% / 0% 100% 0% 100% ;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+::placeholder {
+    color: red;
+}
+
+.button {
+    text-align: center;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    color: white;
+    border-color: white;
+}
+
+input[type="reset"]:hover {
+    border: solid 2px red;
+    color: red;
+}
+
+input[type="submit"] {
+    border-radius: 100% 0% 100% 0% / 13% 100% 0% 87%;
+}
+
+input[type="reset"] {
+    border-radius: 100% 0% 100% 0% / 0% 88% 12% 100%;
+  }
+
+input[type="submit"], input[type="reset"] {
+    width: 23%;
+    display: inline-block;
+    height: 40px;
+    background: url("images/stolen.jpg");
+    border: solid 1px black;
+    cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  color: #1A71B8;
+}

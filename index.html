@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Simple Form Styling</h1>
+    
+    <div class="container">
+        
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="Name">Your Name:</label>
+                <input type="text" placeholder="Type Your Name">
+
+                <label for="Email">Your Email:</label>
+                <input type="email" placeholder="xxyyzz@email.com">
+
+                <label for="tel">Your Phone Number:</label>
+                <input type="tel" placeholder="0987-654-321" minlength="10" maxlength="10" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+
+                <label for="adress">Your Adress:</label>
+                <input type="text">
+
+                <label for="message">Send Us A Message:</label>
+                <textarea id="message" cols="30" rows="10"></textarea>
+
+                <div class="button">
+                    <input type="submit" value="Submit Info">
+                    <input type="reset" value="Reset all Field">
+                </div>
+
+            </fieldset>
+        </form>
+        
+    </div>
+
+    <footer>
+        <p>© 2022 •By Omar Masri</p>
+    </footer>
+    
+</body>
+</html>
