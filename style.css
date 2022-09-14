@@ -5,7 +5,7 @@
 }
 
 fieldset {
-    background-color: #A4DAE4;
+    background: url(/HW9/images/blue.jpg);
     border-radius: 7px;
 
 }
@@ -25,7 +25,7 @@ textarea {
 label {
     margin-top: 10px;
     padding: 5px;
-    background-color: #CF7471;
+    background: url(/HW9/images/red.jpg);
     width: 51.0%;
 }
 
